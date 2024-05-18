@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', function() {
 const FevSem1 = [
     { title: "Gato Galáctico e o Feitiço do Tempo", text: "Direção: Chris Buck, Fawn Veerasunthorn" }, 
     { title: "Os Colonos", text: "Direção: Benjamin Renner, Guylo Homsy" }, 
@@ -46,7 +47,7 @@ const FevSem4 = [
 ];
 
 
-function createCardsFev1(FevSem1) {
+function createCardsFevereiro1(FevSem1) {
     return `
         <div class="col-sm-4 mb-4">
             <div class="card">
@@ -61,7 +62,7 @@ function createCardsFev1(FevSem1) {
 }
 
 
-function createCardsFev2(FevSem2) {
+function createCardsFevereiro2(FevSem2) {
     return `
         <div class="col-sm-4 mb-4">
             <div class="card">
@@ -76,7 +77,7 @@ function createCardsFev2(FevSem2) {
 }
 
 
-function createCardsFev3(FevSem3) {
+function createCardsFevereiro3(FevSem3) {
     return `
         <div class="col-sm-4 mb-4">
             <div class="card">
@@ -91,7 +92,7 @@ function createCardsFev3(FevSem3) {
 }
 
 
-function createCardsFev4(FevSem4) {
+function createCardsFevereiro4(FevSem4) {
     return `
         <div class="col-sm-4 mb-4">
             <div class="card">
@@ -107,10 +108,10 @@ function createCardsFev4(FevSem4) {
   
 
 function renderCardsFev1() {
-    const cardContainer = document.getElementById("card-container-jan1");
+    const cardContainer = document.getElementById("card-container-fev1");
     cardContainer.innerHTML = "";
     FevSem1.forEach(FevSem1 => {
-        const cardHTML = createCardsFev1(FevSem1);
+        const cardHTML = createCardsFevereiro1(FevSem1);
         cardContainer.innerHTML += cardHTML;
     });
 }
@@ -120,7 +121,7 @@ function renderCardsFev2() {
     const cardContainer = document.getElementById("card-container-fev2");
     cardContainer.innerHTML = "";
     FevSem2.forEach(FevSem2 => {
-        const cardHTML = createCardsFev2(FevSem2);
+        const cardHTML = createCardsFevereiro2(FevSem2);
         cardContainer.innerHTML += cardHTML;
     });
 }
@@ -130,7 +131,7 @@ function renderCardsFev3() {
     const cardContainer = document.getElementById("card-container-fev3");
     cardContainer.innerHTML = "";
     FevSem3.forEach(FevSem3 => {
-        const cardHTML = createCardsFev3(FevSem3);
+        const cardHTML = createCardsFevereiro3(FevSem3);
         cardContainer.innerHTML += cardHTML;
     });
 }
@@ -140,7 +141,7 @@ function renderCardsFev4() {
     const cardContainer = document.getElementById("card-container-fev4");
     cardContainer.innerHTML = "";
     FevSem4.forEach(FevSem4 => {
-        const cardHTML = createCardsFev4(FevSem4);
+        const cardHTML = createCardsFevereiro4(FevSem4);
         cardContainer.innerHTML += cardHTML;
     });
 }
@@ -150,3 +151,5 @@ renderCardsFev1();
 renderCardsFev2();
 renderCardsFev3();
 renderCardsFev4();
+});
+                          
