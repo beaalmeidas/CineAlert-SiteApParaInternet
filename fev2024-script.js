@@ -1,49 +1,42 @@
 document.addEventListener('DOMContentLoaded', function() {
+
+
 const FevSem1 = [
-    { title: "Gato Galáctico e o Feitiço do Tempo", text: "Direção: Chris Buck, Fawn Veerasunthorn" }, 
-    { title: "Os Colonos", text: "Direção: Benjamin Renner, Guylo Homsy" }, 
-    { title: "Pobres Criaturas", text: "Direção: Luc Besson" }, 
-    { title: "O Mal Que Nos Habita", text: "Direção: Sofia Coppola" }, 
-    { title: "Argylle - O Superespião", text: "Direção: Nanni Moretti" }, 
-    { title: "A Viagem de Ernesto e Celestine", text: "Direção: Nanni Moretti" },
-    { title: "Peppa Pig - Festa no Cinema", text: "Direção: David Ayer" },
+    { title: "Gato Galáctico e o Feitiço do Tempo", text: "Direção: Rodrigo Zanforlin" }, 
+    { title: "Pobres Criaturas", text: "Direção: Yorgos Lanthimos" }, 
+    { title: "O Mal Que Nos Habita", text: "Direção: Demián Rugna" }, 
+    { title: "Argylle - O Superespião", text: "Direção: Matthew Vaughn" }, 
 ]
 
 const FevSem2 = [ 
-    { title: "A Cor Púrpura", text: "Direção: Alexander Payne" }, 
-    { title: "Moneyboys", text: "Direção: Samantha Jayne, Arturo Perez Jr." }, 
-    { title: "Baghead - A Brux dos Mortos", text: "Direção: Thomas Vincent" },
-    { title: "Todo Mundo Ama Jeanne", text: "Direção: Mari Okada" }, 
-    { title: "Madame Teia", text: "Direção: David Ayer" },
+    { title: "A Cor Púrpura", text: "Direção: Blitz the Ambassador" }, 
+    { title: "A Viagem de Ernesto e Celine", text: "Direção: Julien Chheng, Jean Christophe Roger" }, 
+    { title: "Moneyboys", text: "Direção: C.B. Yi" }, 
+    { title: "Baghead - A Bruxa dos Mortos", text: "Direção: Alberto Corredor" },
+    { title: "Madame Teia", text: "Direção: S. J. Clarkson" },
+    { title: "Bob Marley - One Love", text: "Direção: Reinaldo Marcus Green" },
 ]
 
 const FevSem3 = [
-    { title: "Zona de Interesse", text: "Direção: Todd Haynes" }, 
-    { title: "Bob Marley - One Love", text: "Direção: Um Tae-hwa" }, 
-    { title: "Horizonte", text: "Direção: Bryce McGuire" },
-    { title: "Até o Cair da Noite", text: "Direção: Mauricio Eça" }, 
-    { title: "Masha e o Urso", text: "Direção: Pablo Berger" }, 
+    { title: "Zona de Interesse", text: "Direção: Jonathan Glazer" },  
+    { title: "Até o Cair da Noite", text: "Direção: Christoph Hochhäusler" }, 
+    { title: "Masha e o Urso", text: "Direção: Oleg Kuzovkov" }, 
 ]
 
 
 const FevSem4 = [
-    { title: "Levante", text: "Direção: Will Gluck" }, 
-    { title: "Viver Mal", text: "Direção: Justine Triet" }, 
-    { title: "Zona de Risco", text: "Direção: Wagner de Assis" },
-    { title: "O Menino e a Garça", text: "Direção: Celine Song" }, 
-    { title: "Ferrari", text: "Direção: Leandro Neri" }, 
-    { title: "O Jogo da Morte", text: "Direção: Daniel Calparsoro" },
-    { title: "Nosso Verão Daria Um Filme", text: "Direção: Siddharth Anand" }, 
-    { title: "Cedo Demais", text: "Direção: Charles Stone III" }, 
-    { title: "Garra de Ferro", text: "Direção: Rodrigo Sorogoyen" },
-    { title: "Demon Slayer: Kimetsu no Yaiba - To The Hashira Training", text: "Direção: Neto Borges, Renato Barbieri" }, 
-    { title: "Todos Nós Desconhecidos", text: "Direção: Marcelo Fabri Marão" }, 
-    { title: "Nada Será como Antes", text: "Direção: Leonardo Lacca" },
-    { title: "Duna: Parte 2", text: "Direção: German Acuña, Cristobal Carvajal" },
-    { title: "A Serva", text: "Direção: Neto Borges, Renato Barbieri" }, 
-    { title: "Amanhã", text: "Direção: Marcelo Fabri Marão" }, 
-    { title: "O Reino Gelado", text: "Direção: Leonardo Lacca" },
-    { title: "Dias Perfeitos", text: "Direção: German Acuña, Cristobal Carvajal" },
+    { title: "Viver Mal", text: "Direção: João Canijo" }, 
+    { title: "Zona de Risco", text: "Direção: William Eubank" },
+    { title: "O Menino e a Garça", text: "Direção: Hayao Miyazaki" }, 
+    { title: "Ferrari", text: "Direção: Michael Mann" }, 
+    { title: "O Jogo da Morte", text: "Direção: Alaa Morsy" },
+    { title: "Cedo Demais", text: "Direção: José Lavigne" }, 
+    { title: "Garra de Ferro", text: "Direção: Sean Durkin" },
+    { title: "Demon Slayer: Kimetsu no Yaiba - To The Hashira Training", text: "Direção: Haruo Sotozaki" }, 
+    { title: "Todos Nós Desconhecidos", text: "Direção: Andrew Haigh" },
+    { title: "Duna: Parte 2", text: "Direção: Denis Villeneuve" },
+    { title: "O Reino Gelado", text: "Direção: Vladlen Barbe, Maksim Sveshnikov" },
+    { title: "Dias Perfeitos", text: "Direção: Wim Wenders" },
 ];
 
 
@@ -152,4 +145,3 @@ renderCardsFev2();
 renderCardsFev3();
 renderCardsFev4();
 });
-                          
