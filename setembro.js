@@ -1,34 +1,21 @@
 document.addEventListener('DOMContentLoaded', function() {
     const SepSem1 = [
-        { title: "O Protetor: Capítulo Final", text: "Direção: Antoine Fuqua" },
-        { title: "Ninguém é de Ninguém", text: "Direção: Wagner de Assis" },
-        { title: "Depois do Casamento", text: "Direção: Bart Freundlich" },
-        { title: "Jogos Mortais X", text: "Direção: Kevin Greutert" },
-        { title: "Os Mercenários 4", text: "Direção: Scott Waugh" },
+        { title: "Os Fantasmas se Divertem 2", text: "Direção: Tim Burton" }
     ];
 
     const SepSem2 = [
-        { title: "A Freira 2", text: "Direção: Michael Chaves" },
-        { title: "Patrulha Canina: Super Filhotes", text: "Direção: Cal Brunker" },
-        { title: "Assassino", text: "Direção: David Fincher" },
-        { title: "Os Parças 3", text: "Direção: Marcelo Antunez" },
-        { title: "Sobrenatural: A Porta Vermelha", text: "Direção: Patrick Wilson" },
+        { title: "A Ordem do Tempo", text: "Direção: Liliana Cavani" },
+        { title: "Avassaladoras 2.0", text: "Direção: Mara Mourão" }
     ];
 
     const SepSem3 = [
-        { title: "Retratos Fantasmas", text: "Direção: Kleber Mendonça Filho" },
-        { title: "As Marvels", text: "Direção: Nia DaCosta" },
-        { title: "Pânico 6", text: "Direção: Matt Bettinelli-Olpin, Tyler Gillett" },
-        { title: "Oppenheimer", text: "Direção: Christopher Nolan" },
-        { title: "A Pequena Sereia", text: "Direção: Rob Marshall" },
+        { title: "Bandida – A Número Um", text: "Direção: Marcos Baldini" },
+        { title: "Rapto", text: "Direção: Marco Bellocchio" }
     ];
 
     const SepSem4 = [
-        { title: "Aquaman e o Reino Perdido", text: "Direção: James Wan" },
-        { title: "Duna: Parte Dois", text: "Direção: Denis Villeneuve" },
-        { title: "Wonka", text: "Direção: Paul King" },
-        { title: "Missão Impossível 7", text: "Direção: Christopher McQuarrie" },
-        { title: "Guardians of the Galaxy Vol. 3", text: "Direção: James Gunn" },
+        { title: "A Semente do Mal", text: "Direção: David Chuang" },
+        { title: "Uma Vida de Esperança", text: "Direção: Frank Darabont" }
     ];
 
     function createCard(movie) {
@@ -53,24 +40,8 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    function renderCardsSep1() {
-        renderCards("card-container-sep1", SepSem1);
-    }
-
-    function renderCardsSep2() {
-        renderCards("card-container-sep2", SepSem2);
-    }
-
-    function renderCardsSep3() {
-        renderCards("card-container-sep3", SepSem3);
-    }
-
-    function renderCardsSep4() {
-        renderCards("card-container-sep4", SepSem4);
-    }
-
-    renderCardsSep1();
-    renderCardsSep2();
-    renderCardsSep3();
-    renderCardsSep4();
+    renderCards("card-container-sep1", SepSem1);
+    renderCards("card-container-sep2", SepSem2);
+    renderCards("card-container-sep3", SepSem3);
+    renderCards("card-container-sep4", SepSem4);
 });
