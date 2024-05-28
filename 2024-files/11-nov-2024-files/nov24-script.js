@@ -1,41 +1,16 @@
-const NovSem1 = [
-    { title: "Venom 3", text: "Direção: Kelly Marcel" }, 
-    
-]
-
-const NovSem2 = [ 
-    { title: "Hellboy: O Homem Torto", text: "Direção: Brian Taylor" }, 
-    { title: "Distante", text: "Direção: Josh Gordon, Will Speck." }, 
-    { title: "C.I.C - Central de Inteligência Cearense", text: "Direção: Halder Gomes" },
-    
-]
-
-const NovSem3 = [
-    { title: "Gladiador 2", text: "Direção: Ridley Scott" }, 
-    
-]
-
-
-const NovSem4 = [
-    { title: "Wicked: Parte 1", text: "Direção: John M. Chu" }, 
-    { title: "Moana 2", text: "Direção: Dave Derrick Jr." }, 
-    
+const NovSem2 = [
+    { title: "Reality de Horror - Influencers em Pânico", text: "Direção: Mike Ware, Dame Pierre" },
+    { title: "MMA - Meu Melhor Amigo", text: "Direção: José Alvarenga Jr." },
+    { title: "Alto Knights", text: "Direção: Barry Levinson" }
 ];
 
+const NovSem3 = [
+    { title: "Rosario", text: "Direção: Felipe Vargas (XI)" }
+];
 
-function createCardsNov1(NovSem1) {
-    return `
-        <div class="col-sm-4 mb-4">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">${NovSem1.title}</h5>
-                    <p class="card-text">${NovSem1.text}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-    `;
-}
+const NovSem4 = [
+    { title: "Wicked", text: "Direção: Jon M. Chu" }
+];
 
 
 function createCardsNov2(NovSem2) {
@@ -59,7 +34,7 @@ function createCardsNov3(NovSem3) {
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">${NovSem3.title}</h5>
-                    <p class="card-text">$NovSem3.text}</p>
+                    <p class="card-text">${NovSem3.text}</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
@@ -83,18 +58,9 @@ function createCardsNov4(NovSem4) {
 }
 
 
-function renderCardsNov1() {
-    const cardContainer = document.getElementById("card-container-Nov1");
-    cardContainer.innerHTML = "";
-    NovSem1.forEach(NovSem1 => {
-        const cardHTML = createCardsNov1(NovSem1);
-        cardContainer.innerHTML += cardHTML;
-    });
-}
-
 
 function renderCardsNov2() {
-    const cardContainer = document.getElementById("card-container-Nov2");
+    const cardContainer = document.getElementById("card-container-nov2");
     cardContainer.innerHTML = "";
     NovSem2.forEach(NovSem2 => {
         const cardHTML = createCardsNov2(NovSem2);
@@ -123,7 +89,6 @@ function renderCardsNov4() {
 }
 
 
-renderCardsNov1();
 renderCardsNov2();
 renderCardsNov3();
 renderCardsNov4();

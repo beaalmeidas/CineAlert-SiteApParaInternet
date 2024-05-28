@@ -1,66 +1,128 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const OctSem1 = [
-        { title: "Joker: Folie à Deux", text: "Direção: Todd Phillips" },
-        { title: "La nouvelle femme", text: "Direção: Léa Todorov" },
-        { title: "Nina et le secret du Hérrisson", text: "Direção: Alain Gagnol, Jean-Loup Felicioli" },
-    ];
+const OutSem1 = [
+    { title: "Coringa: Delírio a Dois", text: "Direção: Todd Phillips" },
+    { title: "Querido David", text: "Direção: John McPhail" }
+];
 
-    const OctSem2 = [
-        { title: "Arthur's Whisky", text: "Direção: Stephen Cookson" },
-        { title: "Chief of Station", text: "Direção: Jesse V. Johnson" },
-        { title: "Irena's Vow", text: "Direção: Louise Archambault" },
-        { title: "Robot Selvagem", text: "Direção: Chris Sanders" },
-    ];
 
-    const OctSem3 = [
-        { title: "Little Emma", text: "Elenco e detalhes ainda não disponíveis" },
-        { title: "O Jogo da Rainha", text: "Elenco e detalhes ainda não disponíveis" },
-    ];
+const OutSem2 = [
+    { title: "Pássaro Branco - Uma História de Extraordinário", text: "Direção: Marc Forster" },
+    { title: "Arca de Noé", text: "Direção: Sérgio Machado" },
+    { title: "A Menina e o Dragão", text: "Direção: Salvador Simó, Li Jianping" },
+    { title: "Termodielétrico", text: "Direção: Ana Costa Ribeiro" }
+];
 
-    const OctSem4 = [
-        { title: "Ainda não foram confirmados lançamentos específicos para esta semana.", text: "" },
-    ];
 
-    function createCard(movie) {
-        return `
-            <div class="col-sm-4 mb-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">${movie.title}</h5>
-                        <p class="card-text">${movie.text}</p>
-                        <a href="#" class="btn btn-primary">Saiba mais</a>
-                    </div>
+const OutSem3 = [
+    { title: "Thug", text: "Direção: Hans Petter Moland" }
+];
+
+
+const OutSem5 = [
+    { title: "The Ascent", text: "Direção: William Brent Bell" }
+];
+
+
+function createCardsOut1(OutSem1) {
+    return `
+        <div class="col-sm-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">${OutSem1.title}</h5>
+                    <p class="card-text">${OutSem1.text}</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
-        `;
-    }
+        </div>
+    `;
+}
 
-    function renderCards(containerId, movies) {
-        const cardContainer = document.getElementById(containerId);
-        cardContainer.innerHTML = "";
-        movies.forEach(movie => {
-            cardContainer.innerHTML += createCard(movie);
-        });
-    }
 
-    function renderCardsOct1() {
-        renderCards("card-container-oct1", OctSem1);
-    }
+function createCardsOut2(OutSem2) {
+    return `
+        <div class="col-sm-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">${OutSem2.title}</h5>
+                    <p class="card-text">${OutSem2.text}</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    `;
+}
 
-    function renderCardsOct2() {
-        renderCards("card-container-oct2", OctSem2);
-    }
 
-    function renderCardsOct3() {
-        renderCards("card-container-oct3", OctSem3);
-    }
+function createCardsOut3(OutSem3) {
+    return `
+        <div class="col-sm-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">${OutSem3.title}</h5>
+                    <p class="card-text">${OutSem3.text}</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    `;
+}
 
-    function renderCardsOct4() {
-        renderCards("card-container-oct4", OctSem4);
-    }
 
-    renderCardsOct1();
-    renderCardsOct2();
-    renderCardsOct3();
-    renderCardsOct4();
-});
+function createCardsOut5(OutSem5) {
+    return `
+        <div class="col-sm-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">${OutSem5.title}</h5>
+                    <p class="card-text">${OutSem5.text}</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    `;
+}
+
+
+function renderCardsOut1() {
+    const cardContainer = document.getElementById("card-container-out1");
+    cardContainer.innerHTML = "";
+    OutSem1.forEach(OutSem1 => {
+        const cardHTML = createCardsOut1(OutSem1);
+        cardContainer.innerHTML += cardHTML;
+    });
+}
+
+
+function renderCardsOut2() {
+    const cardContainer = document.getElementById("card-container-out2");
+    cardContainer.innerHTML = "";
+    OutSem2.forEach(OutSem2 => {
+        const cardHTML = createCardsOut2(OutSem2);
+        cardContainer.innerHTML += cardHTML;
+    });
+}
+
+
+function renderCardsOut3() {
+    const cardContainer = document.getElementById("card-container-out3");
+    cardContainer.innerHTML = "";
+    OutSem3.forEach(OutSem3 => {
+        const cardHTML = createCardsOut3(OutSem3);
+        cardContainer.innerHTML += cardHTML;
+    });
+}
+
+
+function renderCardsOut5() {
+    const cardContainer = document.getElementById("card-container-out5");
+    cardContainer.innerHTML = "";
+    OutSem5.forEach(OutSem5 => {
+        const cardHTML = createCardsOut5(OutSem5);
+        cardContainer.innerHTML += cardHTML;
+    });
+}
+
+
+renderCardsOut1();
+renderCardsOut2();
+renderCardsOut3();
+renderCardsOut5();
