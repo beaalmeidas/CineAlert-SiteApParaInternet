@@ -7,6 +7,9 @@
     <!-- CSS do Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
     <link rel="stylesheet" href="index-style.css">
 
     <!-- Fonte -->
@@ -25,7 +28,13 @@
         <!-- Barra de navegação -->
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <a class="navbar-brand" href="#">Meu Site</a>
+                <a class="navbar-brand" href="index.html">
+                    <img src="..\img\logo-without-title.png" alt="Logo" class="logo">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
@@ -39,6 +48,12 @@
                             <a class="nav-link" href="about.html">Sobre</a>
                         </li>
                     </ul>
+                    <form class="form-inline ml-auto">
+                        <input class="form-control rounded-pill mr-sm-2" type="search" placeholder="Pesquisar..." aria-label="Pesquisar">
+                        <button class="btn btn-outline-success rounded-pill my-2 my-sm-0" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
                 </div>
             </div>
         </nav>
@@ -51,7 +66,7 @@
 
             <!-- Imagem da Página Inicial -->
             <div class="index-image-container col-md-8">
-                <img src="img\index-image.png" class="img-fluid" alt="Index-image">
+                <img src="..\img\index-image.png" class="img-fluid" alt="Index-image">
             </div>
 
             <div class="index-greetings col-md-4">
@@ -62,21 +77,62 @@
                 <br>
 
                 <p> Olá, cinéfilo! 🎬
-                    <br>Estamos empolgados em recebê-lo no CineAlert, o destino definitivo para os amantes do cinema.
                     <br>
-                    <br>Aqui, você encontrará os lançamentos mais aguardados, críticas detalhadas, trailers exclusivos e muito mais. Queremos tornar a sua experiência cinematográfica inesquecível!
+                    <br>Estamos empolgados em recebê-lo no CineAlert, o destino definitivo para os amantes do cinema.
                     <br>
                     <br>Navegue pelo nosso catálogo de filmes, descubra as últimas novidades e fique por dentro de tudo o que está rolando no mundo do cinema. Desde grandes blockbusters até joias independentes, temos algo especial para todos os gostos.
                     <br>
                     <br>Prepare a pipoca, ajuste seu assento e embarque conosco nessa jornada cinematográfica. Obrigado por nos visitar e aproveite sua estadia!
                 </p>
+
+                <br>
+                <a href="#" class="btn btn-primary rounded-pill btn-navigate-catalog">Navegar pelo catálogo</a>
+
             </div>
 
         </div>
 
         <br><br>
 
-
+        <footer class="footer mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <div class="logo">
+                            <img src="..\img\logo-footer.png" alt="Logo-Footer">
+                        </div>
+                        <div class="description">
+                            Obrigado por visitar nosso site.
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 text-center">
+                        <div class="contact">
+                            <h5>GitHub</h5>
+                            <a href="#"><i class="fab fa-github" style="font-size: 40px;"></i></a>
+                        </div>
+                        <div class="contact">
+                            <a href="#top" class="footer-button rounded-pill">Voltar ao topo</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 text-right">
+                        <div class="contact-form">
+                            <h4>Conecte-se Conosco</h4>
+                            <h6>Inscreva-se na nossa newsletter para se manter por dentro das notícias mais atualizadas do cinema.</h6>
+                            <form action="#" method="post" class="form-inline justify-content-end">
+                                <input type="email" class="form-control rounded-pill" name="email" placeholder="Endereço de e-mail" required>
+                                <button type="submit" class="btn btn-primary ml-2 rounded-pill">Assinar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="row bottom-links">
+                    <div class="col-12 text-center">
+                        <p>&copy; 2024 CineAlert. Todos os direitos reservados.</p>
+                        <a href="..\privacy-policy.html">POLÍTICA DE PRIVACIDADE</a> | <a href="..\terms-conditions.html">TERMOS E CONDIÇÕES</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
     </div>
     
