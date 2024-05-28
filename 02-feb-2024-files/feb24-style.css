@@ -1,0 +1,82 @@
+.page {
+    background-color: #335C67;
+}
+
+
+.navbar {
+    color: white;
+}
+
+
+.page #month-title-section {
+    background-color: #335C67;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    padding: 80px;
+    margin: -10px -10px 0 -10px;
+}
+
+
+.page hr {
+    border-top: 2px solid #e9c46b;
+}
+
+
+.page h2 {
+    color: #f3a261;
+<<<<<<< HEAD
+}
+=======
+}
+
+.search-box {
+    background: white;
+    border-radius: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-text {
+    padding: 0%;
+    border: 0px;
+    outline: 0;
+    font-size: 16px;
+    width: 0;
+    transition: 0.4s;
+}
+
+.search-btn {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.lupa-white {
+    display: none;
+}
+
+.search-box:hover > .search-text{
+    width: 320px;
+    padding-left: 20px;
+}
+
+.search-box:hover > .search-btn{
+    background: #335C67;
+
+}
+
+.search-box:hover > .search-btn .lupa-blue{
+    display: none;
+}
+
+.search-box:hover > .search-btn .lupa-white{
+    display: block;
+}
+>>>>>>> f6274b9ebb2f8caefcbf8b77c79576a7119a3ce2
