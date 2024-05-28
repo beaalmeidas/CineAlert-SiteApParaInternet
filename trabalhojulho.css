@@ -1,0 +1,29 @@
+.page {
+    background-color: #335C67;
+}
+
+
+.navbar {
+    color: white;
+}
+
+
+.page #month-title-section {
+    background-color: #335C67;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    padding: 80px;
+    margin: -10px -10px 0 -10px;
+}
+
+
+.page hr {
+    border-top: 2px solid #e9c46b;
+}
+
+
+.page h2 {
+    color: #f3a261;
+}
