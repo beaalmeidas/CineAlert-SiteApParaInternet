@@ -1,6 +1,6 @@
 const JanSem1 = [
-    { title: "Wish - O Poder dos Desejos", text: "Direção: Chris Buck, Fawn Veerasunthorn" }, 
-    { title: "Patos!", text: "Direção: Benjamin Renner, Guylo Homsy" }, 
+    { title: "Wish - O Poder dos Desejos", text: "Direção: Chris Buck, Fawn Veerasunthorn", link: "../../../5_movie-detail-files/movie-detail.html" }, 
+    { title: "Patos!", text: "Direção: Benjamin Renner, Guylo Homsy", link: "https://www.imdb.com/title/tt6495056/?ref_=fn_al_tt_1"}, 
     { title: "Dogman", text: "Direção: Luc Besson" }, 
     { title: "Priscilla", text: "Direção: Sofia Coppola" }, 
     { title: "O Melhor Está Por Vir", text: "Direção: Nanni Moretti" }, 
@@ -55,7 +55,7 @@ function createCardsJan1(JanSem1) {
                 <div class="card-body">
                     <h5 class="card-title">${JanSem1.title}</h5>
                     <p class="card-text">${JanSem1.text}</p>
-                    <a href="#" class="btn btn-primary">Ver detalhes</a>
+                    <a href="${JanSem1.link}" class="btn btn-primary">Ver detalhes</a>
                 </div>
             </div>
         </div>
