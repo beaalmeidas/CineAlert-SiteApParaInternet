@@ -7,6 +7,12 @@
 }
 
 
+/* Logo */
+.logo {
+    width: 120px;
+}
+
+
 /* Navegação */
 .navbar {
     background-color: #181716;
@@ -21,9 +27,9 @@
     display: flex;
     align-items: center;
     color: white;
+    margin: 20px;
 }
 .nav-item:hover {
-    background-color: #E09F33;
     font-weight: bold;
     border-bottom: 3px solid #9E2A2B;
 }
@@ -34,4 +40,139 @@
     color:white;
     border-bottom: 3px solid #9E2A2B;
 }
+.navbar .btn-outline-success {
+    color: #9E2A2B;
+    border-color: #9E2A2B;
+    border: 2px solid #9E2A2B
+}
+.navbar .btn-outline-success:hover {
+    background-color: #a72828;
+    color: #fff;
+}
 
+
+/* Rodapé */
+.footer {
+    background-color: #1d1d1d;
+    color: #fff;
+    padding: 40px 0;
+}
+.footer .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width: 120px;
+}
+.footer .logo img {
+    width: 150px;
+    height: auto;
+    margin-right: 5px;
+}
+.footer .description {
+    margin-bottom: 20px;
+}
+.footer .social-media a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 24px;
+}
+.footer .contact {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.footer .contact-form input[type="email"] {
+    border: none;
+    border-radius: 0;
+    padding: 10px;
+    display: inline-block;
+    width: auto;
+}
+.footer .contact-form button {
+    background-color: #ff4081;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+.footer .bottom-links {
+    margin-top: 20px;
+}
+.footer .bottom-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.footer .btn-primary {
+    color: #9E2A2B;
+    border-color: #9E2A2B;
+    border: 2px solid #9E2A2B
+}
+.footer .btn-primary:hover {
+    background-color: #a72828;
+    color: #fff;
+}
+.footer .footer-button {
+    color: #fff;
+    background-color: #1d1d1d;
+    border-color: #9E2A2B;
+    border: 2px solid #9E2A2B;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+.footer .footer-button:hover {
+    background-color: #a72828;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/* ------------------------------------------------------------------------------------------- */
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.contact-form-section .container {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h4 {
+    color: #579caf;
+}
+
+.office-locations p {
+    margin: 10px 0;
+}
+
+.btn-primary {
+    color: #fff !important;
+    border-color: #335667 !important;
+    border: 3px solid #335667 !important;
+    background-color: #1d1d1d !important;
+    font-weight: bold;
+}
+.btn-primary:hover {
+    background-color: #335667 !important;
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.btn-secondary {
+    color: #fff !important;
+    border-color: #9E2A2B !important;
+    border: 3px solid #9E2A2B !important;
+    background-color: #1d1d1d !important;
+    font-weight: bold;
+}
+.btn-secondary:hover {
+    background-color: #a72828 !important;
+    color: #fff !important;
+    font-weight: bold;
+}

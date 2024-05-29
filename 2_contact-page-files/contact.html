@@ -10,7 +10,7 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-    <link rel="stylesheet" href="index-style.css">
+    <link rel="stylesheet" href="contact-style.css">
 
     <!-- Fonte -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,10 +25,15 @@
 
     <div class="page">
 
-        <!-- Barra de navegação -->
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <a class="navbar-brand" href="#">Meu Site</a>
+                <a class="navbar-brand" href="index.html">
+                    <img src="..\img\logo-without-title.png" alt="Logo" class="logo">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
@@ -36,64 +41,125 @@
                             <a class="nav-link" href="index.html">Página Inicial</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="contact.html">Contato</a>
+                            <a class="nav-link active" href="..\2_contact-page-files\contact.html">Contato</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">Sobre</a>
+                            <a class="nav-link" href="..\3_about-page-files\about.html">Sobre</a>
                         </li>
                     </ul>
+                    <form class="form-inline ml-auto">
+                        <input class="form-control rounded-pill mr-sm-2" type="search" placeholder="Pesquisar..." aria-label="Pesquisar">
+                        <button class="btn btn-outline-success rounded-pill my-2 my-sm-0" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
                 </div>
             </div>
         </nav>
 
 
-        <br><br>
-
-        <!-- Formulário de Contato -->
-        <div class="contact-form">
-            <form action="thankyou.html" method="get">
-                <div class="form-group">
-                    <label for="nome"><h2>Nome</h2></label>
-                    <input type="text" id="nome" name="nome" required><br><br>
+        <div class="contact-form-section">
+            <div class="container mt-5">
+                <div class="text-center mb-4">
+                    <h1>Contato</h1>
                 </div>
-    
-                <div class="form-group">
-                    <label for="emailadress"><h2>Email</h2></label>
-                    <input type="email" id="emailadress" name="emailadress" required><br><br>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Consulta Online</h2>
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Nome</label>
+                                <input type="text" class="form-control rounded-pill" id="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control rounded-pill" id="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="interest">Assunto</label>
+                                <select class="form-control rounded-pill" id="interest">
+                                    <option value="sugestao">Sugestão</option>
+                                    <option value="duvida">Dúvida</option>
+                                    <option value="reclamacao">Reclamação</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Mensagem</label>
+                                <textarea class="form-control" id="message" rows="4"></textarea>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-primary btn-block rounded-pill">Enviar</button>
+                                </div>
+                                <div class="col">
+                                    <button type="reset" class="btn btn-secondary btn-block rounded-pill">Limpar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Entre em Contato Conosco</h2>
+                        <br>
+                        <p>Estamos aqui para ajudar! Se você tiver alguma dúvida, sugestão ou precisar de qualquer tipo de assistência, sinta-se à vontade para nos contatar. Adoraríamos ouvir de você.</p>
+                        <br>
+                        <h4>Nossos contatos</h4>
+                        <p>Email: <a href="mailto:cinealert@gmail.com">cinealert@gmail.com</a></p>
+                        <p>Telefone: <a href="tel:+83912345678">(83) 9 1234-5678</a></p>
+                        <div class="office-locations">
+                            <p><strong>João Pessoa, Paraíba</strong><br>Água Fria,  58053-000.<br>UNIPE</p>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="form-group">
-                    <label for="mensagem"><h2>Mensagem</h2></label>
-                    <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
-                    <br><br>
-                </div>
-
-                <div class="form-group">
-                    <input type="checkbox" value="termoscheckbox" required>
-                    <label for="checkbox">Concordo com os temos e condições do CineAlert</label>
-                    <br><br>
-                </div>
-                
-                <div class="form-group">
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Limpar">
-                    <br><br>
-                </div>
-            </form>
+            </div>
         </div>
-        
 
-        <br><br>
         
-        <div>
-            <footer>
-                <p>&#169; CineAlert, 2024.</p>
-                <p>Todos os direitos reservados.</p>
-            </footer>
-        </div>
+        <br>
         
-        <br><br>
+        
+        <footer class="footer mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <div class="logo">
+                            <img src="..\img\logo-footer.png" alt="Logo-Footer">
+                        </div>
+                        <div class="description">
+                            Obrigado por visitar nosso site.
+                            <br>
+                            João Pessoa - PB.
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 text-center">
+                        <div class="contact">
+                            <h5>GitHub</h5>
+                            <a href="https://github.com/beaalmeidas/CineAlert-SiteApParaInternet"><i class="fab fa-github" style="font-size: 40px;"></i></a>
+                        </div>
+                        <div class="contact">
+                            <a href="#top" class="footer-button rounded-pill">Voltar ao topo</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 text-right">
+                        <div class="contact-form">
+                            <h4>Conecte-se Conosco</h4>
+                            <h6>Inscreva-se na nossa newsletter para se manter por dentro das notícias mais atualizadas do cinema.</h6>
+                            <form action="#" method="post" class="form-inline justify-content-end">
+                                <input type="email" class="form-control rounded-pill" name="email" placeholder="Endereço de e-mail" required>
+                                <button type="submit" class="btn btn-primary ml-2 rounded-pill">Assinar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="row bottom-links">
+                    <div class="col-12 text-center">
+                        <p>&copy; 2024 CineAlert. Todos os direitos reservados.</p>
+                        <a href="..\privacy-policy.html">POLÍTICA DE PRIVACIDADE</a> | <a href="..\terms-conditions.html">TERMOS E CONDIÇÕES</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
+        
     </div>
     
     <!-- JavaScript do Bootstrap -->
