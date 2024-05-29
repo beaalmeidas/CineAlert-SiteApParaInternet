@@ -15,6 +15,7 @@ O sistema foi projetado com uma interface amigável e responsiva, visando facili
 
 - [Tecnologias](#tecnologias)
 - [Instalação](#instalação)
+- [Divisão](#divisao)
 - [Contato / Créditos](#contato)
 
 
@@ -53,6 +54,20 @@ Passos para configurar o projeto localmente:
       open index.html  # macOS
       xdg-open index.html  # Linux
       ```
+
+
+## Divisão
+
+Partes do projeto descritas:
+
+- 1_index-page-files: Pasta com os arquivos referentes à Página Inicial do site.
+- 2_contact-page-files: Pasta com os arquivos referentes à Página de Contatos do site.
+- 3_about-page-files: Pasta com os arquivos referentes à Página Sobre do site.
+- 4_thankyou-page-files: Pasta com os arquivos referentes à página de agradecimentos do site.
+- 5_movie-detail-files: Pasta com os arquivos referentes à página de detalhes de um filme exemplo.
+- 2024-files: Pasta dividida contendo os arquivos de cada mês de 2024.
+- img: Contém imagens fundamentais à estética geral do site.
+- month-movie-images: Pasta de thumbnails para a grade de meses do ano.
 
 
 ## Contato / Créditos
