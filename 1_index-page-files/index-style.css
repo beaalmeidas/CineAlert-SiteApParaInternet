@@ -165,3 +165,48 @@
     color: #fff;
     font-weight: bold;
 }
+
+
+/* Grid de páginas de cada mês */
+.monthly-section {
+    padding: 50px 0;
+}
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+.btn-primary {
+    background-color: #9E2A2B;
+    border-color: #9E2A2B;
+}
+.btn-primary:hover {
+    background-color: #a72828;
+    border-color: #a72828;
+}
+.card-bg {
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+.card-body {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+
