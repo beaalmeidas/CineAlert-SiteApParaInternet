@@ -62,7 +62,7 @@ function createCardsAbril1(AbrSem1) {
                 <div class="card-body">
                     <h5 class="card-title">${AbrSem1.title}</h5>
                     <p class="card-text">${AbrSem1.text}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Ver detalhes</a>
                 </div>
             </div>
         </div>
@@ -77,7 +77,7 @@ function createCardsAbril2(AbrSem2) {
                 <div class="card-body">
                     <h5 class="card-title">${AbrSem2.title}</h5>
                     <p class="card-text">${AbrSem2.text}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Ver detalhes</a>
                 </div>
             </div>
         </div>
@@ -92,7 +92,7 @@ function createCardsAbril3(AbrSem3) {
                 <div class="card-body">
                     <h5 class="card-title">${AbrSem3.title}</h5>
                     <p class="card-text">${AbrSem3.text}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Ver detalhes</a>
                 </div>
             </div>
         </div>
@@ -107,7 +107,7 @@ function createCardsAbril4(AbrSem4) {
                 <div class="card-body">
                     <h5 class="card-title">${AbrSem4.title}</h5>
                     <p class="card-text">${AbrSem4.text}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Ver detalhes</a>
                 </div>
             </div>
         </div>

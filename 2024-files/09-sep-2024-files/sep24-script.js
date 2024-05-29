@@ -25,7 +25,7 @@ function createCardsSet1(SetSem1) {
                 <div class="card-body">
                     <h5 class="card-title">${SetSem1.title}</h5>
                     <p class="card-text">${SetSem1.text}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Ver detalhes</a>
                 </div>
             </div>
         </div>
@@ -40,7 +40,7 @@ function createCardsSet3(SetSem3) {
                 <div class="card-body">
                     <h5 class="card-title">${SetSem3.title}</h5>
                     <p class="card-text">${SetSem3.text}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Ver detalhes</a>
                 </div>
             </div>
         </div>
@@ -55,7 +55,7 @@ function createCardsSet4(SetSem4) {
                 <div class="card-body">
                     <h5 class="card-title">${SetSem4.title}</h5>
                     <p class="card-text">${SetSem4.text}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Ver detalhes</a>
                 </div>
             </div>
         </div>

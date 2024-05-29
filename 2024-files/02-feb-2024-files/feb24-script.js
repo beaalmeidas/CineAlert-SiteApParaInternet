@@ -59,7 +59,7 @@ function createCardsFev1(FevSem1) {
                 <div class="card-body">
                     <h5 class="card-title">${FevSem1.title}</h5>
                     <p class="card-text">${FevSem1.text}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Ver detalhes</a>
                 </div>
             </div>
         </div>
@@ -74,7 +74,7 @@ function createCardsFev2(FevSem2) {
                 <div class="card-body">
                     <h5 class="card-title">${FevSem2.title}</h5>
                     <p class="card-text">${FevSem2.text}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Ver detalhes</a>
                 </div>
             </div>
         </div>
@@ -89,7 +89,7 @@ function createCardsFev3(FevSem3) {
                 <div class="card-body">
                     <h5 class="card-title">${FevSem3.title}</h5>
                     <p class="card-text">${FevSem3.text}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Ver detalhes</a>
                 </div>
             </div>
         </div>
@@ -104,7 +104,7 @@ function createCardsFev4(FevSem4) {
                 <div class="card-body">
                     <h5 class="card-title">${FevSem4.title}</h5>
                     <p class="card-text">${FevSem4.text}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Ver detalhes</a>
                 </div>
             </div>
         </div>
@@ -119,7 +119,7 @@ function createCardsFev5(FevSem) {
                 <div class="card-body">
                     <h5 class="card-title">${FevSem5.title}</h5>
                     <p class="card-text">${FevSem5.text}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Ver detalhes</a>
                 </div>
             </div>
         </div>

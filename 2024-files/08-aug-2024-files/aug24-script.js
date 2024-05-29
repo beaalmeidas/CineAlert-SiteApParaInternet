@@ -35,7 +35,7 @@ function createCardsAgo1(AgoSem1) {
                 <div class="card-body">
                     <h5 class="card-title">${AgoSem1.title}</h5>
                     <p class="card-text">${AgoSem1.text}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Ver detalhes</a>
                 </div>
             </div>
         </div>
@@ -50,7 +50,7 @@ function createCardsAgo2(AgoSem2) {
                 <div class="card-body">
                     <h5 class="card-title">${AgoSem2.title}</h5>
                     <p class="card-text">${AgoSem2.text}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Ver detalhes</a>
                 </div>
             </div>
         </div>
@@ -65,7 +65,7 @@ function createCardsAgo3(AgoSem3) {
                 <div class="card-body">
                     <h5 class="card-title">${AgoSem3.title}</h5>
                     <p class="card-text">${AgoSem3.text}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Ver detalhes</a>
                 </div>
             </div>
         </div>
@@ -80,7 +80,7 @@ function createCardsAgo4(AgoSem4) {
                 <div class="card-body">
                     <h5 class="card-title">${AgoSem4.title}</h5>
                     <p class="card-text">${AgoSem4.text}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Ver detalhes</a>
                 </div>
             </div>
         </div>

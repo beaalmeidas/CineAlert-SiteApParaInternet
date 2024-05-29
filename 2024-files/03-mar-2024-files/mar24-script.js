@@ -58,7 +58,7 @@ function createCardsMar1(MarSem1) {
                 <div class="card-body">
                     <h5 class="card-title">${MarSem1.title}</h5>
                     <p class="card-text">${MarSem1.text}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Ver detalhes</a>
                 </div>
             </div>
         </div>
@@ -73,7 +73,7 @@ function createCardsMar2(MarSem2) {
                 <div class="card-body">
                     <h5 class="card-title">${MarSem2.title}</h5>
                     <p class="card-text">${MarSem2.text}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Ver detalhes</a>
                 </div>
             </div>
         </div>
@@ -88,7 +88,7 @@ function createCardsMar3(MarSem3) {
                 <div class="card-body">
                     <h5 class="card-title">${MarSem3.title}</h5>
                     <p class="card-text">${MarSem3.text}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Ver detalhes</a>
                 </div>
             </div>
         </div>
@@ -103,7 +103,7 @@ function createCardsMar4(MarSem4) {
                 <div class="card-body">
                     <h5 class="card-title">${MarSem4.title}</h5>
                     <p class="card-text">${MarSem4.text}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Ver detalhes</a>
                 </div>
             </div>
         </div>

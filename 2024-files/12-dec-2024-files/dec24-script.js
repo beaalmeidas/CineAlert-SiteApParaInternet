@@ -26,7 +26,7 @@ function createCardsDez2(DezSem2) {
                 <div class="card-body">
                     <h5 class="card-title">${DezSem2.title}</h5>
                     <p class="card-text">${DezSem2.text}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Ver detalhes</a>
                 </div>
             </div>
         </div>
@@ -41,7 +41,7 @@ function createCardsDez3(DezSem3) {
                 <div class="card-body">
                     <h5 class="card-title">${DezSem3.title}</h5>
                     <p class="card-text">${DezSem3.text}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Ver detalhes</a>
                 </div>
             </div>
         </div>
@@ -56,7 +56,7 @@ function createCardsDez4(DezSem4) {
                 <div class="card-body">
                     <h5 class="card-title">${DezSem4.title}</h5>
                     <p class="card-text">${DezSem4.text}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Ver detalhes</a>
                 </div>
             </div>
         </div>

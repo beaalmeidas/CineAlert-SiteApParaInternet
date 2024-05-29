@@ -70,7 +70,7 @@ function createCardsMai1(MaiSem1) {
                 <div class="card-body">
                     <h5 class="card-title">${MaiSem1.title}</h5>
                     <p class="card-text">${MaiSem1.text}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Ver detalhes</a>
                 </div>
             </div>
         </div>
@@ -85,7 +85,7 @@ function createCardsMai2(MaiSem2) {
                 <div class="card-body">
                     <h5 class="card-title">${MaiSem2.title}</h5>
                     <p class="card-text">${MaiSem2.text}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Ver detalhes</a>
                 </div>
             </div>
         </div>
@@ -100,7 +100,7 @@ function createCardsMai3(MaiSem3) {
                 <div class="card-body">
                     <h5 class="card-title">${MaiSem3.title}</h5>
                     <p class="card-text">${MaiSem3.text}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Ver detalhes</a>
                 </div>
             </div>
         </div>
@@ -115,7 +115,7 @@ function createCardsMai4(MaiSem4) {
                 <div class="card-body">
                     <h5 class="card-title">${MaiSem4.title}</h5>
                     <p class="card-text">${MaiSem4.text}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Ver detalhes</a>
                 </div>
             </div>
         </div>
@@ -130,7 +130,7 @@ function createCardsMai5(MaiSem5) {
                 <div class="card-body">
                     <h5 class="card-title">${MaiSem5.title}</h5>
                     <p class="card-text">${MaiSem5.text}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Ver detalhes</a>
                 </div>
             </div>
         </div>

@@ -20,7 +20,7 @@ function createCardsNov2(NovSem2) {
                 <div class="card-body">
                     <h5 class="card-title">${NovSem2.title}</h5>
                     <p class="card-text">${NovSem2.text}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Ver detalhes</a>
                 </div>
             </div>
         </div>
@@ -35,7 +35,7 @@ function createCardsNov3(NovSem3) {
                 <div class="card-body">
                     <h5 class="card-title">${NovSem3.title}</h5>
                     <p class="card-text">${NovSem3.text}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Ver detalhes</a>
                 </div>
             </div>
         </div>
@@ -50,7 +50,7 @@ function createCardsNov4(NovSem4) {
                 <div class="card-body">
                     <h5 class="card-title">${NovSem4.title}</h5>
                     <p class="card-text">${NovSem4.text}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Ver detalhes</a>
                 </div>
             </div>
         </div>
